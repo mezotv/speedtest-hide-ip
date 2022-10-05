@@ -1,0 +1,12 @@
+{
+    "name": "Hide Speedtest IP",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Automatically hide your ip on speedtest.net",
+    "content_scripts": [{
+      "matches": ["https://www.speedtest.net/*"],
+      "css": [
+        "main.css"
+      ]
+    }]
+  }
