@@ -1,4 +1,27 @@
+.ispComponent .result-data::before {
+  content: "Your IP address is hidden!";
+}
 
-.ispComponent .result-data {
-      display: none;
+#container
+  > div
+  > div.main-content
+  > div
+  > div
+  > div
+  > div.pure-u-custom-speedtest
+  > div.speedtest-container.main-row
+  > div.main-view
+  > div
+  > div.result-area.result-area-test
+  > div
+  > div
+  > div.result-container-speed.result-container-speed-active
+  > div:nth-child(4)
+  > div
+  > div
+  > div.pure-u-1-2.u-c.eot-info-test
+  > div:nth-child(3)
+  > div.result-data.js-data-ip::before {
+    visibility: hidden;
+  content: "Your IP address is hidden!";
 }

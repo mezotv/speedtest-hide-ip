@@ -7,6 +7,9 @@
       "matches": ["https://www.speedtest.net/*"],
       "css": [
         "main.css"
+      ],
+      "js": [
+        "main.js"
       ]
     }]
   }
